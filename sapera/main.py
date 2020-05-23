@@ -1,0 +1,1 @@
+#main script for the application, Will change in future when structure of project become complex
