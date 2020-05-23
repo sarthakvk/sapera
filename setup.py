@@ -25,7 +25,6 @@ setup(
 
     install_requires=[
         'scrapy',
-        'alive-progress',
     ],
 #entry point for the application
     entry_points={

@@ -1,5 +1,4 @@
 import scrapy
-from alive_progress import alive_bar
 import json
 
 def make_algo_obj(algo_tag, algo_type):

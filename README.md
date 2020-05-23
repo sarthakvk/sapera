@@ -1,21 +1,28 @@
 # sapera: Python algorithm learning toolkit  
-<p>
-<a href="https://www.python.org/"><img src = "http://ForTheBadge.com/images/badges/made-with-python.svg"/></a>
-<img align="right" height="35" src = "https://www.repostatus.org/badges/latest/wip.svg"/>
+<a href="https://www.python.org/"><img src = "http://ForTheBadge.com/images/badges/made-with-python.svg?style=plastic"/></a>
+<img align="right" height="35" width="200" src = "https://www.repostatus.org/badges/latest/wip.svg"/>
+<br/>
 
-<br>
-
+<p align="center">
+  
 <a href ="https://github.com/sarthakchaudhary13/sapera/issues">
-  <img src = "https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+  <img src = "https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic"/>
 </a>
 
-<img src = "https://img.shields.io/github/license/sarthakchaudhary13/sapera"/>
-<img src = "https://img.shields.io/github/issues/sarthakchaudhary13/sapera"/>
+<img src = "https://img.shields.io/pypi/l/sapera?style=plastic"/>
+
+<img src = "https://img.shields.io/github/issues/sarthakchaudhary13/sapera?style=plastic"/>
+
 <a href = "https://pypi.org/project/sapera/">
-  <img src = "https://img.shields.io/pypi/v/sapera.svg"/>
+  <img src = "https://img.shields.io/pypi/v/sapera.svg?style=plastic"/>
 </a>
-<img align="right" src = "https://img.shields.io/github/stars/sarthakchaudhary13/sapera"/>
-<img align="right" src = "http://hits.dwyl.com/sarthakchaudhary13/sapera.svg"/>
+
+<img src = "https://img.shields.io/github/stars/sarthakchaudhary13/sapera?style=plastic"/>
+
+<img src = "http://hits.dwyl.com/sarthakchaudhary13/sapera.svg"/>
+
+<img src = "https://img.shields.io/github/repo-size/sarthakchaudhary13/sapera?style=plastic"/>
+
 </p>
 
 ## Installation
