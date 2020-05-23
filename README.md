@@ -21,9 +21,9 @@
 
 <img src = "https://img.shields.io/github/repo-size/sarthakchaudhary13/sapera?style=plastic"/>
 
-<img src = "http://hits.dwyl.com/sarthakchaudhary13/sapera.svg"/>
-
 <img src = "https://img.shields.io/travis/sarthakchaudhary13/sapera?style=plastic"/>
+
+<img src = "http://hits.dwyl.com/sarthakchaudhary13/sapera.svg"/>
 
 </p>
 
