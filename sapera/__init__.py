@@ -9,7 +9,10 @@ def entry_point():
         activate by command sapera in terminal
     """
     args = sys.argv[1:]
-
+    if os.name == "nt":  # for windows
+        os.system("cls")
+    else:  # linux or mac
+        os.system("clear")
     print("Hello There!")
     print(
         "I'm currently in devlopment, you can help me develop faster by contributing :)"
