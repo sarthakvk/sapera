@@ -10,12 +10,14 @@ def entry_point():
     args = sys.argv[1:]
 
     print("Hello There!")
-    print("I'm currently in devlopment, you can help me develop faster by contributing :)")
+    print(
+        "I'm currently in devlopment, you can help me develop faster by contributing :)"
+    )
     print("visit: https://github.com/sarthakchaudhary13/sapera")
     print()
     print("Meanwhile here's a algorithm you can learn today")
-    print("-"*25)
+    print("-" * 25)
     data = main.random_generator()
-    print("Name :"+data['name'])
-    print("Algorithm Type: "+data['algo_type'])
-    print("Link to the Solution: "+data['link'])
+    print("Name :" + data["name"])
+    print("Algorithm Type: " + data["algo_type"])
+    print("Link to the Solution: " + data["link"])

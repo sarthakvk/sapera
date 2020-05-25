@@ -12,8 +12,9 @@ def update_data_info():
 
     :return:
     """
-    os.system('bash {x}/sapera/scraper/updater.sh {x}'.format(x=BASE_DIR)
-              )  # calling the updater.sh
+    os.system(
+        "bash {x}/sapera/scraper/updater.sh {x}".format(x=BASE_DIR)
+    )  # calling the updater.sh
 
 
 def download_data():
@@ -24,13 +25,13 @@ def download_data():
     :return:
     """
     pass
-    #Work in Progress
+    # Work in Progress
 
 
 def random_generator():
-    info_file_name = BASE_DIR + '/data/.list-of-algorithms.json'
+    info_file_name = BASE_DIR + "/data/.list-of-algorithms.json"
 
-    with open(info_file_name, 'r') as f:
+    with open(info_file_name, "r") as f:
         data = json.load(f)
 
     topics = list(data.keys())
