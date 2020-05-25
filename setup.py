@@ -22,15 +22,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    install_requires=[
-        "scrapy",
-    ],
+    install_requires=["scrapy",],
     # entry point for the application
-    entry_points={
-        "console_scripts": [
-            "sapera=sapera:entry_point",
-        ],
-    },
+    entry_points={"console_scripts": ["sapera=sapera:entry_point",],},
     project_urls={
         "Bug Reports": "https://github.com/sarthakchaudhary13/sapera/issues",
         "Say Thanks!": "http://svkumar.me",
