@@ -33,7 +33,7 @@ setup(
         ],
     },
 
-    project_urls={  # Optional
+    project_urls={ 
         'Bug Reports': 'https://github.com/sarthakchaudhary13/sapera/issues',
         'Say Thanks!': 'http://svkumar.me',
         'Source': 'https://github.com/sarthakchaudhary13/sapera/',
