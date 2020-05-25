@@ -13,9 +13,8 @@ def update_data_info():
 
     :return:
     """
-    os.system(
-        "bash {x}/sapera/scraper/updater.sh {x}".format(x=BASE_DIR)
-    )  # calling the updater.sh
+    os.system("bash {x}/sapera/scraper/updater.sh {x}".format(
+        x=BASE_DIR))  # calling the updater.sh
 
 
 def download_data():

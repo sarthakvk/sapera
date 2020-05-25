@@ -30,8 +30,7 @@ class MySpider(scrapy.Spider):
 
         for indx, algo_type in enumerate(algo_class):
             algo_type_xpath = "//div[@id='readme']/*/ul[{indx}]/li//a".format(
-                indx=indx + 1
-            )
+                indx=indx + 1)
             data[algo_type] = [
                 make_algo_obj(algo_tag, algo_type)
                 for algo_tag in response.xpath(algo_type_xpath)
@@ -41,7 +40,13 @@ class MySpider(scrapy.Spider):
             f.write(json.dumps(data, indent=4))
 
 
-process = CrawlerProcess(settings={"FEEDS": {"items.json": {"format": "json"},},})
+process = CrawlerProcess(settings={
+    "FEEDS": {
+        "items.json": {
+            "format": "json"
+        },
+    },
+})
 
 process.crawl(MySpider)
 process.start()
