@@ -1,8 +1,9 @@
 # main script for the application, Will change in future when structure of project become complex
 import json
-from sapera.settings import BASE_DIR
 import os
 import random
+
+from sapera.settings import BASE_DIR
 
 
 def update_data_info():

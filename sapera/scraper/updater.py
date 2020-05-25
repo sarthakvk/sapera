@@ -1,7 +1,8 @@
 import json
+
 import scrapy
-from scrapy.crawler import CrawlerProcess
 from sapera import BASE_DIR
+from scrapy.crawler import CrawlerProcess
 
 
 def make_algo_obj(algo_tag, algo_type):
