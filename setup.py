@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/sarthakchaudhary13/sapera",
     packages=find_packages()+['data'],
-    include_package_data = True,
+    include_package_data=True,
     licence='MIT',
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -26,14 +26,14 @@ setup(
     install_requires=[
         'scrapy',
     ],
-#entry point for the application
+    # entry point for the application
     entry_points={
         'console_scripts': [
             'sapera=sapera:entry_point',
         ],
     },
 
-    project_urls={ 
+    project_urls={
         'Bug Reports': 'https://github.com/sarthakchaudhary13/sapera/issues',
         'Say Thanks!': 'http://svkumar.me',
         'Source': 'https://github.com/sarthakchaudhary13/sapera/',

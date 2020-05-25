@@ -1,5 +1,8 @@
-import os,sys
+import os
+import sys
 from .main import main
+
+
 def entry_point():
     """Entry point for the application
         activate by command sapera in terminal
