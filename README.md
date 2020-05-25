@@ -38,8 +38,18 @@ pip install sapera
 ## Usage
 *sapera* can be run as a command-line program, in your terminal run
 ```bash
-sapera
-#It won't do anything now, I am working to make it work ASAP
+$ sapera
+
+Hello There!
+I'm currently in devlopment, you can help me develop faster by contributing :)
+visit: https://github.com/sarthakchaudhary13/sapera
+
+Meanwhile here's a algorithm you can learn today
+-------------------------
+Name :Optimal Binary Search Tree
+Algorithm Type: Dynamic Programming
+Link to the Solution: https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/optimal_binary_search_tree.py
+
 ```
 
 ## Contributing
