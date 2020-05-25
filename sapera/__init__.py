@@ -9,9 +9,9 @@ def entry_point():
         activate by command sapera in terminal
     """
     args = sys.argv[1:]
-    if os.name == 'nt':#for windows
+    if os.name == 'nt':  # for windows
         os.system('cls')
-    else:#linux or mac
+    else:  # linux or mac
         os.system('clear')
     print("Hello There!")
     print(
