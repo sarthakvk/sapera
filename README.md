@@ -1,10 +1,11 @@
-# sapera: Python algorithm learning toolkit  
+# sapera: Python algorithm learning toolkit
+
 <a href="https://www.python.org/"><img src = "http://ForTheBadge.com/images/badges/made-with-python.svg?style=plastic"/></a>
 <img align="right" height="35" width="200" src = "https://www.repostatus.org/badges/latest/wip.svg"/>
 <br/>
 
 <p align="center">
-  
+
 <a href ="https://github.com/sarthakchaudhary13/sapera/issues">
   <img src = "https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic"/>
 </a>
@@ -29,14 +30,17 @@
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install *sapera*.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install
+_sapera_.
 
 ```bash
 pip install sapera
 ```
 
 ## Usage
-*sapera* can be run as a command-line program, in your terminal run
+
+_sapera_ can be run as a command-line program, in your terminal run
+
 ```bash
 ❯ sapera
 
@@ -53,6 +57,7 @@ Commands:
         help            ->      opens help
         h               ->      alias for help
 ```
+
 ```bash
 ❯ sapera run
 
@@ -63,6 +68,7 @@ Algorithm Type: Traversals
 Link to the Solution: https://github.com/TheAlgorithms/Python/blob/master/traversals/binary_tree_traversals.py
 
 ```
+
 ```bash
 ❯ sapera update
 
@@ -70,6 +76,7 @@ Running Script...
 .............................. Done
 Already upto Date!
 ```
+
 ```bash
 ❯ sapera update run
 
@@ -83,8 +90,12 @@ Algorithm Type: Hashes
 Link to the Solution: https://github.com/TheAlgorithms/Python/blob/master/hashes/hamming_code.py
 
 ```
+
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Pull requests are welcome. For major changes, please open an issue first to
+discuss what you would like to change.
 
 ## License
+
 [MIT](https://raw.githubusercontent.com/sarthakchaudhary13/sapera/master/LICENSE)

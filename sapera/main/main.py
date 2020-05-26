@@ -15,8 +15,9 @@ def update_data_info():
     """
     os.system("bash {x}/sapera/scraper/updater.sh {x}".format(
         x=BASE_DIR))  # calling the updater.sh
-    with open(BASE_DIR+'/sapera/scraper/status.txt','r') as status:
+    with open(BASE_DIR + "/sapera/scraper/status.txt", "r") as status:
         print(status.read())
+
 
 def download_data():
     """
@@ -26,6 +27,7 @@ def download_data():
     :return:
     """
     pass
+
 
 def random_generator():
     info_file_name = BASE_DIR + "/data/.list-of-algorithms.json"
