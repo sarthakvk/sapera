@@ -5,7 +5,7 @@
 <br/>
 
 <p align="center">
-  
+
 <a href ="https://github.com/sarthakchaudhary13/sapera/issues">
   <img src = "https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic"/>
 </a>
