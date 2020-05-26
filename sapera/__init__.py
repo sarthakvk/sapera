@@ -8,16 +8,15 @@ def entry_point():
     """Entry point for the application
         activate by command sapera in terminal
     """
-    args = sys.argv[1:]  #todo add [options]
-    if os.name == 'nt':#for windows
+    args = sys.argv[1:]  # todo add [options]
+    if os.name == 'nt':  # for windows
         os.system('cls')
 
-    else:#linux or mac
+    else:  # linux or mac
         os.system('clear')
 
-
-    if len(args) ==1:
-        if args[0] in ('run','r'):
+    if len(args) == 1:
+        if args[0] in ('run', 'r'):
             print("Here's an Algorithm of the Day")
             print('-'*30)
             data = main.random_generator()
@@ -25,11 +24,11 @@ def entry_point():
             print("Algorithm Type: " + data["algo_type"])
             print("Link to the Solution: " + data["link"])
 
-        elif args[0] in ('update','u'):
+        elif args[0] in ('update', 'u'):
             print('Running Script...')
             main.update_data_info()
 
-        elif args[0] in ('help','h'):
+        elif args[0] in ('help', 'h'):
             print('Usage:')
             print('\tsapera <command>\n')
             print('Commands:')
@@ -43,25 +42,25 @@ def entry_point():
             print('\th\t\t->\talias for help')
 
         else:
-            print('sapera: unknown command "',*args,'"')
+            print('sapera: unknown command "', *args, '"')
             print("see: \'sapera help\' or \'sapera h\'.")
 
     elif len(args) == 2:
-        if (args[0] in ('update', 'u') and args[1] in ('run','r')) or (args[0] in ('run','r') and args[1] in ('update','u')):
+        if (args[0] in ('update', 'u') and args[1] in ('run', 'r')) or (args[0] in ('run', 'r') and args[1] in ('update', 'u')):
             print('Running Script...')
             main.update_data_info()
             print("Here's an Algorithm of the Day")
             print('-' * 30)
-            data = main.random_generator( )
-            print("Name :" + data [ "name" ])
-            print("Algorithm Type: " + data [ "algo_type" ])
-            print("Link to the Solution: " + data [ "link" ])
+            data = main.random_generator()
+            print("Name :" + data["name"])
+            print("Algorithm Type: " + data["algo_type"])
+            print("Link to the Solution: " + data["link"])
 
         else:
-            print('sapera: unknown command "',*args,'"')
+            print('sapera: unknown command "', *args, '"')
             print("see: \'sapera help\' or \'sapera h\'.")
 
-    elif len(args)==0:
+    elif len(args) == 0:
         print('Usage:')
         print('\tsapera <command>\n')
         print('Commands:')
@@ -74,5 +73,5 @@ def entry_point():
         print('\thelp\t\t->\topens help')
         print('\th\t\t->\talias for help')
     else:
-        print('sapera: unknown command "' , *args , '"')
+        print('sapera: unknown command "', *args, '"')
         print("see: \'sapera help\' or \'sapera h\'.")
