@@ -61,6 +61,7 @@ Here's an Algorithm of the Day
 Name :Binary Tree Traversals
 Algorithm Type: Traversals
 Link to the Solution: https://github.com/TheAlgorithms/Python/blob/master/traversals/binary_tree_traversals.py
+
 ```
 ```bash
 ❯ sapera update
