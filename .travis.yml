@@ -9,3 +9,16 @@ install:
 
 script:
   - sapera
+  - sapera run
+  - sapera update
+  - sapera update run
+  - sapera r
+  - sapera u
+  - sapera u r
+  - sapera r u
+  - sapera help
+  - sapera h
+  - sapera safd
+  - sapera h r u
+  - sapera dsafdsa
+  - sapera dsafa fdsafsa dsfdsa

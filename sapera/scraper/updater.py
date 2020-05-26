@@ -1,9 +1,9 @@
 import json
-
+import os
 import scrapy
 from scrapy.crawler import CrawlerProcess
 
-from sapera import BASE_DIR
+from sapera.settings import BASE_DIR
 
 
 def make_algo_obj(algo_tag, algo_type):
@@ -35,10 +35,22 @@ class MySpider(scrapy.Spider):
                 make_algo_obj(algo_tag, algo_type)
                 for algo_tag in response.xpath(algo_type_xpath)
             ]
-
-        with open(filename, "w") as f:
-            f.write(json.dumps(data, indent=4))
-
+        with open(BASE_DIR + '/sapera/scraper/status.txt' , 'w') as status :
+            try:
+                with open(filename, "r+") as f:
+                    try:
+                        if json.load(f) != data:
+                            f.write(json.dumps(data, indent=4))
+                            status.write('Updated')
+                        else:
+                            status.write('Already upto Date!')
+                    except:
+                        f.write(json.dumps(data , indent = 4))
+                        status.write('Updated')
+            except:
+                with open(filename, 'w') as f:
+                    f.write(json.dumps(data , indent = 4))
+                    status.write('Updated')
 
 process = CrawlerProcess(settings={
     "FEEDS": {
@@ -48,5 +60,6 @@ process = CrawlerProcess(settings={
     },
 })
 
-process.crawl(MySpider)
-process.start()
+if __name__ == '__main__':
+    process.crawl(MySpider)
+    process.start()
