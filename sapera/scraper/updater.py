@@ -30,37 +30,32 @@ class MySpider(scrapy.Spider):
 
         for indx, algo_type in enumerate(algo_class):
             algo_type_xpath = "//div[@id='readme']/*/ul[{indx}]/li//a".format(
-                indx=indx + 1)
+                indx=indx + 1
+            )
             data[algo_type] = [
                 make_algo_obj(algo_tag, algo_type)
                 for algo_tag in response.xpath(algo_type_xpath)
             ]
-        with open(BASE_DIR + '/sapera/scraper/status.txt', 'w') as status:
+        with open(BASE_DIR + "/sapera/scraper/status.txt", "w") as status:
             try:
                 with open(filename, "r+") as f:
                     try:
                         if json.load(f) != data:
                             f.write(json.dumps(data, indent=4))
-                            status.write('Updated')
+                            status.write("Updated")
                         else:
-                            status.write('Already upto Date!')
+                            status.write("Already upto Date!")
                     except:
                         f.write(json.dumps(data, indent=4))
-                        status.write('Updated')
+                        status.write("Updated")
             except:
-                with open(filename, 'w') as f:
+                with open(filename, "w") as f:
                     f.write(json.dumps(data, indent=4))
-                    status.write('Updated')
+                    status.write("Updated")
 
 
-process = CrawlerProcess(settings={
-    "FEEDS": {
-        "items.json": {
-            "format": "json"
-        },
-    },
-})
+process = CrawlerProcess(settings={"FEEDS": {"items.json": {"format": "json"},},})
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     process.crawl(MySpider)
     process.start()
