@@ -18,8 +18,6 @@ def entry_point():
 
     if len(args) ==1:
         if args[0] in ('run','r'):
-            print(args[0])
-            print(args[0] == 'r' or 'run')
             print("Here's an Algorithm of the Day")
             print('-'*30)
             data = main.random_generator()
