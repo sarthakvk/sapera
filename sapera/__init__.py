@@ -47,8 +47,7 @@ def entry_point():
 
     elif len(args) == 2:
         if (args[0] in ("update", "u") and args[1] in ("run", "r")) or (
-            args[0] in ("run", "r") and args[1] in ("update", "u")
-        ):
+                args[0] in ("run", "r") and args[1] in ("update", "u")):
             print("Running Script...")
             main.update_data_info()
             print("Here's an Algorithm of the Day")
