@@ -2,8 +2,9 @@ import json
 import os
 
 import scrapy
-from sapera.settings import BASE_DIR
 from scrapy.crawler import CrawlerProcess
+
+from sapera.settings import BASE_DIR
 
 
 def make_algo_obj(algo_tag, algo_type):
