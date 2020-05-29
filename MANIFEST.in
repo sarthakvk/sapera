@@ -6,3 +6,9 @@ include LICENSE.txt
 
 # Include the data files
 recursive-include data *
+
+#include scripts
+global-include **.sh **.cmd
+
+graft test
+global-exclude *.py[cod]
