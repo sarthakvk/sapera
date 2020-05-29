@@ -11,8 +11,10 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
+      - pip install -e .
       - run:
-          command: sapera
+          command: |
+            sapera
           name: Test
 
 workflows:
