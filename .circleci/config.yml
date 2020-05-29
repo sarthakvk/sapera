@@ -11,10 +11,21 @@ jobs:
       - python/load-cache
       - python/install-deps
       - python/save-cache
-      - pip install -e .
       - run:
           command: |
+            pip install -r requirements.txt
+            pip install -e .
             sapera
+            sapera run
+            sapera update
+            sapera r
+            sapera u
+            sapera update run
+            sapera run update
+            sapera r u
+            sapera u r
+            sapera sada dsad
+            sapera sadsa dsadsas dsad
           name: Test
 
 workflows:
