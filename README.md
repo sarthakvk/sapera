@@ -1,7 +1,7 @@
 # sapera: Python algorithm learning toolkit
 
 <a href="https://www.python.org/"><img src = "http://ForTheBadge.com/images/badges/made-with-python.svg?style=plastic"/></a>
-<img align="right" height="35" width="200" src = "https://www.repostatus.org/badges/latest/wip.svg"/>
+<img align="right" height="35" width="200" src = "https://www.repostatus.org/badges/latest/active.svg"/>
 <br/>
 
 <p align="center">
