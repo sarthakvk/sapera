@@ -3,7 +3,7 @@
 # sapera: Python algorithm learning toolkit
 
 <img align="left" height="35" width="200" src = "https://www.repostatus.org/badges/latest/active.svg"/>
-<br/>
+<br/></br>
 
 <p align="center">
 
