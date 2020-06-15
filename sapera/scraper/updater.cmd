@@ -1,0 +1,1 @@
+python %1\sapera\scraper\updater.py > NUL 2>&1
