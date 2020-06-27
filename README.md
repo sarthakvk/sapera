@@ -123,3 +123,6 @@ discuss what you would like to change.
 ## License
 
 [MIT](https://raw.githubusercontent.com/sarthakchaudhary13/sapera/master/LICENSE)
+
+## Algorithm Source
+[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
