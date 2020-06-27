@@ -19,7 +19,7 @@ class MySpider(scrapy.Spider):
     name = "MySpider"
 
     start_urls = [
-        "https://github.com/sarthakchaudhary13/Python/blob/master/DIRECTORY.md",
+        "https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md",
     ]
 
     def parse(self, response):

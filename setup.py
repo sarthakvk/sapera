@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sapera",
-    version="1.0.1",
+    version="2.0",
     author="Sarthak Vineet Kumar",
     author_email="sarthakchaudhary13@gmail.com",
     description="A python package for learning algorithms",

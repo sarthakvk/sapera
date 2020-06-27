@@ -16,7 +16,7 @@ def update_data_info():
     print(BASE_DIR)
     if os.name == 'nt':
         os.system("{x}\\sapera\\scraper\\updater.cmd {x}".format(
-            x = BASE_DIR))
+            x = BASE_DIR)) #calling updater.cmd
     else:
         os.system("bash {x}/sapera/scraper/updater.sh {x}".format(
             x=BASE_DIR))  # calling the updater.sh
