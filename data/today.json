@@ -1,0 +1,8 @@
+{
+    "date": "2020-07-03",
+    "algo": {
+        "link": "https://github.com/TheAlgorithms/Python/blob/master/boolean_algebra/quine_mc_cluskey.py",
+        "name": "Quine Mc Cluskey",
+        "algo_type": "Boolean Algebra"
+    }
+}
