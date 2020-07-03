@@ -38,9 +38,10 @@ class MySpider(scrapy.Spider):
             ]
         with open(BASE_DIR + "/sapera/scraper/status.txt", "w") as status:
             try:
-                with open(filename, "r+") as f:
+                with open(filename, "r") as f:
                     try:
                         if json.load(f) != data:
+                            f.seek(0)
                             f.write(json.dumps(data, indent=4))
                             status.write("Updated")
                         else:
@@ -50,6 +51,7 @@ class MySpider(scrapy.Spider):
                         status.write("Updated")
             except:
                 with open(filename, "w") as f:
+                    f.seek(0)
                     f.write(json.dumps(data, indent=4))
                     status.write("Updated")
 

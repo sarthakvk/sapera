@@ -845,6 +845,11 @@
             "algo_type": "Dynamic Programming"
         },
         {
+            "link": "https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/minimum_cost_path.py",
+            "name": "Minimum Cost Path",
+            "algo_type": "Dynamic Programming"
+        },
+        {
             "link": "https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/minimum_partition.py",
             "name": "Minimum Partition",
             "algo_type": "Dynamic Programming"
@@ -930,11 +935,6 @@
             "algo_type": "Graphs"
         },
         {
-            "link": "https://github.com/TheAlgorithms/Python/blob/master/graphs/bfs.py",
-            "name": "Bfs",
-            "algo_type": "Graphs"
-        },
-        {
             "link": "https://github.com/TheAlgorithms/Python/blob/master/graphs/bfs_shortest_path.py",
             "name": "Bfs Shortest Path",
             "algo_type": "Graphs"
@@ -952,6 +952,11 @@
         {
             "link": "https://github.com/TheAlgorithms/Python/blob/master/graphs/breadth_first_search.py",
             "name": "Breadth First Search",
+            "algo_type": "Graphs"
+        },
+        {
+            "link": "https://github.com/TheAlgorithms/Python/blob/master/graphs/breadth_first_search_2.py",
+            "name": "Breadth First Search 2",
             "algo_type": "Graphs"
         },
         {
