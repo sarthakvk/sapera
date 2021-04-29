@@ -1,0 +1,25 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "11:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: zope-interface
+    versions:
+    - 5.2.0
+    - 5.3.0
+  - dependency-name: lxml
+    versions:
+    - 4.6.2
+  - dependency-name: cffi
+    versions:
+    - 1.14.4
+  - dependency-name: scrapy
+    versions:
+    - 2.4.1
+  - dependency-name: cryptography
+    versions:
+    - "3.2"
